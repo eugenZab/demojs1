@@ -1,9 +1,16 @@
-# Loops examples
+# npm modules examples
+
+As we already added lodash package to our project we will use it as an example
+https://lodash.com/docs
+
 
 ```javascript 
 
-for (const user of users){
+const _ = require('lodash'); // this is how you import it to your js file
+
+_.forEachRight(users, function(user) {
     //do what you want with each user here
-}
+    // it will it iterates over elements of collection from right to left
+});
 
 ```
