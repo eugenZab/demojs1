@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node variables.js"
+    "test_var": "node variables.js",
+    "test_loops": "node loops.js"
   },
   "repository": {
     "type": "git",
